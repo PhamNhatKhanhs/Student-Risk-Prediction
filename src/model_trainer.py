@@ -4,7 +4,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
-from src import config, evaluate, preprocessing as preproc # Đổi tên alias để tránh trùng
+from src import config, evaluate, preprocessing as preproc 
 
 def train_single_model(X_train, y_train, model_instance, numerical_cols, categorical_cols):
     """Huấn luyện một mô hình đơn lẻ với preprocessor."""

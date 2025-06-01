@@ -40,7 +40,7 @@ def plot_feature_importances_custom(pipeline, model_name="Model"):
     try:
         # Lấy preprocessor và model từ pipeline
         preprocessor = pipeline.named_steps['preprocessor']
-        model = pipeline.named_steps['classifier'] # Hoặc 'regressor' tùy tên bạn đặt
+        model = pipeline.named_steps['classifier'] # Hoặc 'regressor' 
         
         if hasattr(model, 'feature_importances_'):
             # Lấy tên các features sau khi OneHotEncoding

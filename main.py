@@ -54,7 +54,7 @@ def run_pipeline():
         joblib.dump(original_feature_columns_for_prediction, feature_columns_filename)
         print(f"Đã lưu danh sách cột feature vào file: {feature_columns_filename}")
 
-    # 6. (Tùy chọn) Demo dự đoán với mô hình tốt nhất (giữ nguyên hoặc chỉnh sửa nếu cần)
+    # 6.Demo dự đoán với mô hình tốt nhất
     if best_model_pipeline:
         print(f"\n===== DEMO DỰ ĐOÁN VỚI MÔ HÌNH TỐT NHẤT: {best_model_name} =====")
         sample_student_dict = {
