@@ -9,12 +9,6 @@
 
 Hệ thống Dự đoán Nguy cơ Học tập là một ứng dụng học máy được thiết kế để nhận diện học sinh có nguy cơ đạt kết quả học tập kém. Sử dụng bộ dữ liệu "Student Performance" của UCI, hệ thống phân tích nhiều thuộc tính của học sinh để dự đoán những em có khả năng đạt điểm cuối kỳ thấp (G3 < 10), từ đó có thể triển khai các chiến lược can thiệp sớm.
 
-<p align="center">
-  <img src="https://github.com/user/student_risk_predictor/raw/main/assets/dashboard_preview.png" alt="Xem trước Bảng điều khiển" width="80%">
-  <br>
-  <em>Xem trước Bảng điều khiển (Ví dụ)</em>
-</p>
-
 ## ✨ Tính Năng Chính
 
 - **Phân tích Dự đoán**: Sử dụng mô hình Random Forest để dự đoán nguy cơ học tập với độ chính xác cao
@@ -152,7 +146,7 @@ Dự án này được cấp phép theo Giấy phép MIT - xem file LICENSE đ�
 
 ## 📬 Liên Hệ
 
-Đường dẫn dự án: [https://github.com/yourusername/student_risk_predictor](https://github.com/yourusername/student_risk_predictor)
+Đường dẫn dự án: [https://github.com/PhamNhatKhanhs/Student-Risk-Prediction](https://github.com/PhamNhatKhanhs/Student-Risk-Prediction)
 
 ---
 
